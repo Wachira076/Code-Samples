@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5%; padding-right: 5%;
+    
+}
+
+.contactInfo{
+    font-size:large;
+    
+}
+.parent {
+    display: flex;
+    gap: 200px;
+    margin-top: 50px;
+}
+
+h2{
+    color: #02D20F;
+}
+
+img{
+    margin-bottom: -100px;
+}
+
+
+
+
+
+.topnav {
+    overflow: hidden;
+    position:absolute;
+    z-index:2;
+    padding-left: 5rem;
+    padding-top: 3rem;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav a active{
+      color:green;
+  }
+  .topnav a hover{
+      color:green;
+      font-weight:200; 
+  }
